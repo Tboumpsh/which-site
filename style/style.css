@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.contanier{
+    margin: 5% 0;
+}
+#post{
+    width: 400px;
+}
+.post_id , .title , .body{
+margin: 10px 0;
+padding: 10px;
+border: 1.5px solid goldenrod;
+border-radius: 5px;
+}
+#button{
+    width: 100px;
+    height: 30px;
+    background-color:oldlace;
+    border: 2px solid goldenrod;
+    color:olive;
+    font-weight: bold;
+    
+}
+#numberP{
+    width: 150px;
+    height: 30px;
+    background-color: transparent;
+    border: 2px solid olive;
+}
+
+label{
+    color: olivedrab;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
